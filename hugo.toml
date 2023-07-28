@@ -1,0 +1,4 @@
+baseURL = 'http://kyelang.org/'
+languageCode = 'en-us'
+title = 'Kye Docs'
+theme = 'hugo-book'
