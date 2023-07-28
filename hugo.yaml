@@ -1,0 +1,11 @@
+baseURL: 'http://kyelang.org/'
+languageCode: 'en-us'
+title: 'Kye Docs'
+theme: 'hugo-book'
+
+params:
+  BookTheme: 'light'
+  BookToC: false
+  BookRepo: https://github.com/benjameep/kyelang-docs
+  BookCommitPath: commit
+  # BookEditPath: edit/main/
