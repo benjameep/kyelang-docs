@@ -1,6 +1,6 @@
 ---
 weight: 25
-# bookHidden: true
+bookHidden: true
 ---
 
 # Nominal, Ordinal, Interval, or Ratio (to be determined)

@@ -1,5 +1,6 @@
 ---
 weight: 15
+bookHidden: true
 ---
 
 # Models
