@@ -5,11 +5,13 @@ type: docs
 
 # Kye Docs
 
-Welcome to Kye's Documentation!
-
 {{< hint danger >}}
 **!! Under Active Development !!**  
-Kye is in its early stages and is not yet available for public use
+Kye is in its early stages and is not yet available for public use.
+
+If you would like to be notified when a public release is made, email [subscribe@kyelang.org](mailto:subscribe@kyelang.org) 
+
+Thank you! :smiling_face_with_smiling_eyes:
 {{< /hint >}}
 
 ## What is Kye?
