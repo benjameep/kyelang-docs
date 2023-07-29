@@ -1,3 +1,0 @@
-# Edges
-
-Edges connect data
