@@ -24,16 +24,18 @@ Let's say the api you are pulling from is the [pokemon api](https://pokeapi.co/)
     import requests
     from kye import Pokemon
 
+    @kye.get
     def get_pokemon(id: Pokemon.id) -> Pokemon:
       return requests('https://pokeapi.co/api/v2/pokemon/' + id).json()
     
 And the kye file would look like this:
 
-    Pokemon(id: Number)
-    Pokemon(name: String) {
+    Pokemon(id: Number) {
+      name: String
       weight: Number
       height: Number
       base_experience: Number
-      types: Slots<Type>
-      abilities: Slots<PokemonAbility>
+      types: PokemonType+
+      abilities: PokemonAbility+
     }
+

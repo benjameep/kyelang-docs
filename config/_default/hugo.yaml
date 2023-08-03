@@ -3,6 +3,7 @@ languageCode: 'en-us'
 title: 'Kye Docs'
 theme: 'hugo-book'
 enableEmoji: true
+enableGitInfo: true
 
 params:
   BookTheme: 'light'
