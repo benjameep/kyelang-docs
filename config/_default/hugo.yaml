@@ -11,3 +11,16 @@ params:
   BookRepo: https://github.com/benjameep/kyelang-docs
   BookCommitPath: commit
   # BookEditPath: edit/main/
+
+menu:
+  after:
+    - name: Blog
+      url: https://kyelabs.substack.com/archive
+      weight: 10
+      params:
+        rel: external
+    # - name: Github
+    #   url: https://github.com/kyelabs/kyepy
+    #   weight: 15
+    #   params:
+    #     rel: external
