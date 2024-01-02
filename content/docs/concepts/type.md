@@ -13,9 +13,9 @@ There are predefined types like `Number`, `String`, `Boolean`
 
 |           | Examples    |
 | --------- | ----------- |
-| Number    | 1, -3.42    |
-| String    | "foo"       |
-| Boolean   | true, false |
+| Number    | `1`, `-3.42`    |
+| String    | `"foo"`       |
+| Boolean   | `true`, `false` |
 
 All other types inherit from these literals, for example:
 - a person's `Name` inherits from `String`
@@ -29,8 +29,8 @@ your convenience.
 
 For example:
 
-    Name: String
-    Count: Number[0..]
+    type Name: String
+    type Count: Number > 0
 
 
 ## Models
