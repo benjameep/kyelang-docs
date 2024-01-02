@@ -22,12 +22,12 @@ Capitalized identifiers are [Types]({{< relref "type" >}})
   - `Person`
   - `EmailAddress`
 
-snake_case identifiers are [Edges]({{< relref "edge" >}})
-  - `first_name`
+lower-case identifiers are [Edges]({{< relref "edge" >}})
+  - `firstName`
   - `home_address`
   - `parent`
 
-All Caps identifiers are enum constants
+ALL_CAPS identifiers are enum constants
   - `TRUE`
   - `BACHELORS_DEGREE`
   - `ACTIVE_STATUS`
