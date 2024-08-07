@@ -4,15 +4,16 @@
 
 The below Kye script defines a `User` table. Table names must be uppercased.
 
-<pre><code><strong>User(id)(username) {
-</strong>  id: Number
+```
+User(id)(username) {
+  id: Number
   username: String
   name: String
   age?: Number
 
-  assert age > 0 &#x26; age &#x3C;= 120
+  assert age > 0 & age <= 120
 }
-</code></pre>
+```
 
 ## **Indexes**
 
